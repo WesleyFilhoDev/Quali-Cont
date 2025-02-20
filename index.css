@@ -12,6 +12,10 @@ body {
     background-color: #335275;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .home {
     background-color: #335275;
     width: auto;
@@ -32,6 +36,11 @@ body {
     height: 80px;
     margin: 0 auto;
     margin-top: -18px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #484747;
 }
 
 ul {
@@ -91,7 +100,7 @@ ul {
     margin-top: 70px;
     background-color: white;
     width: 100%;
-    height: 142.5px;
+    height: 130px;
     text-align: center; /* Garante que o texto dentro fique centralizado */
 }
 
@@ -174,13 +183,106 @@ ul {
     display: flex;
     justify-content: center;
     margin-top: -150px;
-    margin-bottom: 0;
 }
 
 .elipse img {
     width: 100%;
     height: 180px;
-    margin-bottom: 0;
+}
+
+.container-services {
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.services {
+    font-family: 'SkinSans400';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 50px;
+    margin: 0;
+}
+
+.card-01, .card-02, .card-03, .card-04 {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+}    
+
+.card-03 {
+    margin-left: 205px;
+}
+
+.card-04 {
+    margin-right: 205px
+}
+
+.cards h7 {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    right: 10px;
+    bottom: 70px;
+}
+
+.card-02 h7, .card-03 h7 {
+    left: 13px;
+}
+
+.card-04 h7 {
+    left: 10px;
 }
 
 
+.icon-01, .icon-02, .icon-03, .icon-04 {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #335275;
+}
+
+.icon-01 img { 
+    width: 60px;
+    height: 60px;
+}
+
+.icon-02 img {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-03 img {
+    position: relative;
+    width: 50px;
+    height: 35px;
+    padding: 4px;
+    top: 10px;
+}
+
+.icon-04 img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.card-01 p , .card-02 p, .card-03 p, .card-04 p {
+    color: black;
+    font-size: 13px;
+    margin-top: -60px;
+    margin-left: 100px;
+    text-align: left;
+}
