@@ -78,6 +78,7 @@ ul {
     color: #335275;
     font-size: 15px;
     margin-top: -20px;
+    cursor: pointer;
 }
 
 .container-photo {
@@ -285,4 +286,109 @@ ul {
     margin-top: -60px;
     margin-left: 100px;
     text-align: left;
+}
+
+.container-contact {
+    height: 100vh;
+}
+
+.title-contact {
+    font-family: 'SkinSans400';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.description {
+    font-family: 'SkinSans400';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.cards-contact { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.Davi, .Paulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.Davi img, .Paulo img {
+    position: relative;
+    top: 40px;
+    width: 250px;
+    height: 300px;
+}
+
+.Davi p, .Paulo p {
+    text-align: center;
+    color: black;
+    font-family: 'SkinSans400';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+    height: 230px;
+    gap: 20px
+    ;
+}
+
+.footer-logo {
+    width: 130px;
+    height: 90px;
+}
+
+.vertical-line {
+    width: 1px; 
+    height: 80px; 
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.637); /* Cor da linha */
+}
+
+.footer p {
+    font-family: 'SkinSans400';
+    font-size: 10px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: row;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+.footer-end p {
+    font-family: 'SkinSans400';
+    font-size: 10px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.icons-contact {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+    left: 70vw;
+    top: 30px;
 }
