@@ -6,14 +6,17 @@
     <title>Qalicont</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="assets/Logo Quali Cont - Copia.png" type="image/x-icon" sizes="20x20">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <section class="home">
+    <section class="home" id="home">
        <nav>
             <div class="navbar">
-                <img class="logo" src="assets/Logo Quali Cont.png" alt="logo-qualicont">
+                <a href="#home">
+                    <img class="logo" src="assets/Logo Quali Cont.png" alt="logo-qualicont">
+                </a>
                 <ul>
-                    <li> <a href="#container-home">INICIO</a></li>
+                    <li> <a href="#home">INICIO</a></li>
                     <li> <a href="#about">SOBRE</a></li>
                     <li> <a href="#services">SERVIÇOS</a></li>
                     <li> <a href="#contact">CONTATO</a></li>
@@ -28,7 +31,7 @@
                 </a>
             </div>
             <div class="container-photo">
-                <img class="two-people"  src="assets/foto dos dois.png" alt="duas pessoas">
+                <img class="two-people"  src="assets/foto dos dois.png" alt="duas pessoas" >
             </div>
         </div>
         <div class="second-container">
@@ -41,22 +44,24 @@
     </section>
 
     <section class="about" id="about">
-        <div class="container-about">
-            <div class="container-about-images">
-                <img class="graphic" src="assets/foto de serviços.jpg" alt="foto de gráficos">
-                <img src="assets/reuniao.jpg" alt="reuniao">
-            </div>
-            <div class="container-about-text">
-                <div class="title-about">
-                    <h1>QUEM SOMOS</h1>
+        <div class="fade-in-element">
+            <div class="container-about">
+                <div class="container-about-images">
+                    <img class="graphic" src="assets/foto de serviços.jpg" alt="foto de gráficos">
+                    <img src="assets/reuniao.jpg" alt="reuniao">
                 </div>
-                <div class="text-about">
-                    <p>Na QualiCont, números vão além de cálculos, <br>eles contam a história do seu crescimento.</p>
-                    <p>Com uma equipe experiente e um atendimento <br>personalizado, ajudamos empresas a <br>otimizarem sua gestão financeira, reduzirem <br>custos e alcançarem melhores resultados. </p>
-                    <p>Nosso compromisso é simplificar a <br>contabilidade para que você possa tomar <br>decisões estratégicas com segurança e <br>tranquilidade.</p>
-                </div>                
+                <div class="container-about-text">
+                    <div class="title-about">
+                        <h1>QUEM SOMOS</h1>
+                    </div>
+                    <div class="text-about">
+                        <p>Na QualiCont, números vão além de cálculos, <br>eles contam a história do seu crescimento.</p>
+                        <p>Com uma equipe experiente e um atendimento <br>personalizado, ajudamos empresas a <br>otimizarem sua gestão financeira, reduzirem <br>custos e alcançarem melhores resultados. </p>
+                        <p>Nosso compromisso é simplificar a <br>contabilidade para que você possa tomar <br>decisões estratégicas com segurança e <br>tranquilidade.</p>
+                    </div>                
+                </div>
             </div>
-        </div>
+       </div>
         <div class="elipse">
             <img src="assets/Ellipse 3.png" alt="onda decorativa">
         </div>
@@ -65,34 +70,36 @@
     <section class="services" id="services">
         <div class="container-services">
             <h3 class="title-services">SERVIÇOS</h3>
-            <div class="cards">
-                <div class="card-01">
-                    <div class="icon-01">
-                        <img src="assets/monitor.png" alt="">
+            <div class="fade-in-element">
+                <div class="cards">
+                    <div class="card-01">
+                        <div class="icon-01">
+                            <img src="assets/monitor.png" alt="">
+                        </div>
+                        <h7>Contabilidade Digital</h7>
+                        <p>Modernizamos a gestão contábil da sua <br>empresa com tecnologia e eficiência. <br>Automatizamos processos, e fornecemos <br>insights financeiros estratégicos para <br>impulsionar seu crescimento. Tudo <br>100% online, com segurança e praticidade.</p>
                     </div>
-                    <h7>Contabilidade Digital</h7>
-                    <p>Modernizamos a gestão contábil da sua <br>empresa com tecnologia e eficiência. <br>Automatizamos processos, e fornecemos <br>insights financeiros estratégicos para <br>impulsionar seu crescimento. Tudo <br>100% online, com segurança e praticidade.</p>
-                </div>
-                <div class="card-02">
-                    <div class="icon-02">
-                        <img src="assets/seta.png" alt="">
+                    <div class="card-02">
+                        <div class="icon-02">
+                            <img src="assets/seta.png" alt="">
+                        </div>
+                        <h7>Contabilidade Consultiva</h7>
+                        <p>Oferecemos análises estratégicas e insights <br>inanceiros para impulsionar o crescimento <br>do seu negócio. Com acompanhamento <br>personalizado, ajudamos na tomada de <br>decisões inteligentes, reduzindo riscos e <br>maximizando resultados.</p>
                     </div>
-                    <h7>Contabilidade Consultiva</h7>
-                    <p>Oferecemos análises estratégicas e insights <br>inanceiros para impulsionar o crescimento <br>do seu negócio. Com acompanhamento <br>personalizado, ajudamos na tomada de <br>decisões inteligentes, reduzindo riscos e <br>maximizando resultados.</p>
-                </div>
-                <div class="card-03">
-                    <div class="icon-03">
-                        <img src="assets/icones maos.png" alt="">
+                    <div class="card-03">
+                        <div class="icon-03">
+                            <img src="assets/icones maos.png" alt="">
+                        </div>
+                        <h7>Assebilidade Empresarial</h7>
+                        <p>Oferecemos suporte estratégico <br>para a gestão do seu negócio, <br>otimizando processos, reduzindo custos e garantindo conformidade <br>fiscal. Com nossa expertise, sua empresa <br>cresce de forma segura e eficiente.</p>
                     </div>
-                    <h7>Assebilidade Empresarial</h7>
-                    <p>Oferecemos suporte estratégico <br>para a gestão do seu negócio, <br>otimizando processos, reduzindo custos e garantindo conformidade <br>fiscal. Com nossa expertise, sua empresa <br>cresce de forma segura e eficiente.</p>
-                </div>
-                <div class="card-04">
-                    <div class="icon-04">
-                        <img src="assets/balança.png" alt="">
+                    <div class="card-04">
+                        <div class="icon-04">
+                            <img src="assets/balança.png" alt="">
+                        </div>
+                        <h7>Planejamento Tributário</h7>
+                        <p>Ajudamos sua empresa a pagar menos <br>impostos de forma legal e estratégica. <br>Analisamos seu regime fiscal, identificamos <br>oportunidades de economia e garantimos o <br>cumprimento das obrigações, reduzindo <br>riscos e aumentando a lucratividade.</p>
                     </div>
-                    <h7>Planejamento Tributário</h7>
-                    <p>Ajudamos sua empresa a pagar menos <br>impostos de forma legal e estratégica. <br>Analisamos seu regime fiscal, identificamos <br>oportunidades de economia e garantimos o <br>cumprimento das obrigações, reduzindo <br>riscos e aumentando a lucratividade.</p>
                 </div>
             </div>
         </div>
@@ -101,22 +108,30 @@
     <section class="contact" id="contact">
         <div class="container-contact">
             <h1 class="title-contact">CONTATO</h1>
-            <p class="description">Entre em contato com minha equipe de especialistas agora mesmo!</p>
+            <p class="description">Entre em contato conosco agora mesmo!</p>
             <div class="cards-contact">
-                <div class="Davi">
-                    <p>Davi Landim</p>
-                    
-                </div>
-                <div class="Paulo">
-                    <p>Paulo Welber</p>
-                </div>
+                <a href="https://api.whatsapp.com/send?phone=5588981306699" target="_blank">
+                    <div class="Davi">
+                        <img src="assets/wppw.png" alt="" width="30px" height="30px">
+                        <p>Davi Landim</p>
+                    </div>
+                </a>
+                
+                <a href="https://api.whatsapp.com/send?phone=5585996103508" target="_blank">
+                    <div class="Paulo">
+                        <img src="assets/wppw.png" alt="" width="30px" height="30px">
+                        <p>Paulo Welber</p>
+                    </div>
+                </a>
             </div>
         </div>
         <footer>
             <div class="footer">
-                <div class="footer-logo">
-                    <img class="footer-logo" src="assets/Logo Quali Cont.png" alt="logo-qualicont">
-                </div>
+                <a href="#home">
+                    <div class="footer-logo">
+                        <img class="footer-logo" src="assets/Logo Quali Cont.png" alt="logo-qualicont">
+                    </div>
+                </a>
                 <div class="vertical-line">
     
                 </div>
