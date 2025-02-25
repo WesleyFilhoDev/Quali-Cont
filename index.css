@@ -436,7 +436,7 @@ ul {
 @media screen and (max-width: 480px) {
 
     body {    
-        background: /*linear-gradient(to bottom, #2B4A6D, #5490D3);*/black;
+        background: linear-gradient(to bottom, #2B4A6D, #5490D3);
         width: 100%;
    }
 
@@ -655,7 +655,7 @@ ul {
         display: flex;
         align-items: center;
         margin-top: 150vw;
-        margin-left: 2%;
+        margin-left: 29%;
         height: 100vh;
         display: flex;
         flex-direction: column;
