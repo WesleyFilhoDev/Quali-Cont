@@ -9,7 +9,7 @@
 }
 
 body {    
-     background: linear-gradient(to right, #2B4A6D, #5490D3);
+     background: linear-gradient(to bottom, #2B4A6D, #5490D3);
 }
 
 html {
@@ -435,10 +435,10 @@ ul {
     top: 30px;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
 
     body {    
-        background: linear-gradient(to right, #2B4A6D, #5490D3);
+        background: linear-gradient(to bottom, #2B4A6D, #5490D3);
    }
 
    html {
@@ -579,10 +579,10 @@ ul {
         right: 85px;
         top: 40px;
         font-family: 'SkinSans400';
-        font-size: 17px;
+        font-size: 18px;
         color: white;
         padding-top: -10px;
-        width: 300px;
+        width: 430px;
         text-align: left;
     }
 
@@ -628,5 +628,75 @@ ul {
         height: 100vh;
         display: flex;
         flex-direction: column;
+    }
+
+    .Davi, .Paulo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 20px;
+        gap: 15px;
+        background-color: #2BB741;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        width: 500px;
+        height: 230px;
+        gap: 20px;
+        margin-top: -232px;
+    }
+    
+    .footer-logo {
+        width: 190px;
+        height: 130px;
+    }
+    
+    .vertical-line {
+        display: none;;
+    }
+    
+    .footer p {
+        display: none;
+    }
+    
+    .footer-end {
+        display: flex;
+        flex-direction: row;
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+    
+    .footer-end p {
+        font-family: 'SkinSans400';
+        font-size: 10px;
+        margin-top: 10px;
+        color: #000000;
+    }
+    
+    .icons-contact {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 30px;
+        height: 30px;
+        gap: 23px;
+        left: 20px;
+    }
+
+    .icons-contact img {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 40px;
+        height: 40px;
+        gap: 23px;
+        left: 20px;
     }
 }
