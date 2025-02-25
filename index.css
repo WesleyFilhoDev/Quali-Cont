@@ -8,10 +8,12 @@
     src: url('fonts/SinkinSans-500Medium.otf') format('opentype');
 }
 
-body, html {    
+body {    
      background: linear-gradient(to bottom, #2B4A6D, #5490D3);
-     overflow-x: hidden;
-     width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .home {
@@ -433,9 +435,8 @@ ul {
 
 @media screen and (max-width: 480px) {
 
-    body, html {    
+    body {    
         background: linear-gradient(to bottom, #2B4A6D, #5490D3);
-        overflow-x: hidden;
         width: 100%;
    }
 
