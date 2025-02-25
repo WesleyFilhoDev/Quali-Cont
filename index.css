@@ -477,7 +477,7 @@ ul {
 
     .title {
         position: relative;
-        left: 10px;
+        left: 20px;
         font-family: 'SkinSans400';
         color: white;
         font-size: 40px;
@@ -504,7 +504,7 @@ ul {
         justify-content: center;
         align-items: center;
         margin-right: 140px;
-        margin-top: 20px;
+        margin-top: 50px;
     }
     
     .two-people {
