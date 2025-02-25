@@ -503,7 +503,7 @@ ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 160px;
+        margin-right: 140px;
         margin-top: 20px;
     }
     
@@ -512,7 +512,7 @@ ul {
         height: auto;
         position: absolute;
         top: 390px;
-        right: 85px;
+        right: 45px;
     }
 
     .second-container {
@@ -530,7 +530,7 @@ ul {
         display: flex;
         flex-direction: column; /* Coloca os elementos um abaixo do outro */
         align-items: center; /* Centraliza no eixo horizontal */
-        margin-right: 70px;
+        margin-right: 150px;
     }
 
     .first-image {
