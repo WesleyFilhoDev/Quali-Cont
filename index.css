@@ -433,8 +433,9 @@ ul {
 
 @media screen and (max-width: 480px) {
 
-    body {    
+    body, html {    
         background: linear-gradient(to bottom, #2B4A6D, #5490D3);
+        overflow-x: hidden;
         width: 100%;
    }
 
