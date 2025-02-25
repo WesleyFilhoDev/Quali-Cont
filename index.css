@@ -503,7 +503,7 @@ ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 170px;
+        margin-right: 140px;
         margin-top: 61px;
     }
     
@@ -512,7 +512,7 @@ ul {
         height: auto;
         position: absolute;
         top: 390px;
-        right: 45px;
+        right: 37px;
     }
 
     .second-container {
