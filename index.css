@@ -169,8 +169,6 @@ ul {
     transform: translateY(0); /* Volta para o lugar original */
 }
 
-
-
 .container-about img {
     width: 320px;
     height: 220px;
@@ -439,10 +437,16 @@ ul {
 
     body {    
         background: /*linear-gradient(to bottom, #2B4A6D, #5490D3);*/black;
+        width: 100%;
    }
 
    html {
         scroll-behavior: smooth;
+    }
+
+    .home {
+        width: auto;
+        height: 100vh;
     }
     
     .logo {
@@ -461,6 +465,8 @@ ul {
         height: 108px;
         margin: 0 auto;
         margin-top: -18px;
+        margin-left: 80px;
+        margin-bottom: 5rem;
     }
 
     ul {
@@ -477,9 +483,9 @@ ul {
 
     .title {
         position: relative;
-        left: 20px;
+        left: 60px;
         font-family: 'SkinSans400';
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 40px;
         width: auto;
         margin-top: 3vw;
@@ -496,7 +502,7 @@ ul {
         font-size: 15px;
         margin-top: -20px;
         cursor: pointer;
-        left: 60px;
+        left: 110px;
     }
 
     .container-photo {
@@ -510,16 +516,16 @@ ul {
     .two-people {
         width: 350px;
         height: auto;
+        margin-left: 14rem;
+        top: 387px;
         
-        top: 390px;
-        right: 70px;
     }
 
     .second-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 291px;
+        margin-top: 212px;
         background-color: white;
         width: 500px;
         height: 98px;
@@ -530,7 +536,7 @@ ul {
         display: flex;
         flex-direction: column; /* Coloca os elementos um abaixo do outro */
         align-items: center; /* Centraliza no eixo horizontal */
-        margin-right: 150px;
+        margin-right: 100px;
     }
 
     .first-image {
@@ -551,7 +557,7 @@ ul {
     }
 
     .container-about {
-        margin-top: 200vw;
+        margin-top: 50rem;
         text-align: center;
         height: 100vh;
         display: flex;
@@ -559,12 +565,11 @@ ul {
     }
     
     .title-about {
-        position: fixed;
         font-family: 'SkinSans500';
         font-size: 32px;
         color: white;
-        right: 140px;
-        margin-top: -160px;
+        text-align: center;
+        margin-right: 70px;
     }
 
     .container-about-text {
@@ -576,14 +581,15 @@ ul {
 
     .container-about-text p {
         position: relative;
-        right: 85px;
+        right: 40px;
         top: 40px;
         font-family: 'SkinSans400';
         font-size: 18px;
         color: white;
         padding-top: -10px;
-        width: 430px;
+        width: 380px;
         text-align: left;
+        line-height: 30px;
     }
 
     .container-about img {
@@ -599,11 +605,21 @@ ul {
         display: flex;
         justify-content: center;
         margin-top: 50px;
+        margin-left: 90px
     }
     
     .elipse img {
-        width: 100%;
-        height: 180px;
+        width: 30rem;
+        height: 130px;
+    }
+
+    .services {
+        position: relative;
+        left: 50px;
+        font-family: 'SkinSans400';
+        font-size: 30px;
+        color: white;
+        text-align: center;
     }
 
     .container-services {
@@ -623,8 +639,23 @@ ul {
         margin-right: 5px
     }
 
+    .cards h7 {
+        font-size: 15px;
+    }
+
+    .card-01 p , .card-02 p, .card-03 p, .card-04 p {
+        color: black;
+        font-size: 15px;
+        margin-top: -60px;
+        margin-left: 90px;
+        text-align: left;
+    }
+
     .container-contact {
+        display: flex;
+        align-items: center;
         margin-top: 150vw;
+        margin-left: 29%;
         height: 100vh;
         display: flex;
         flex-direction: column;
